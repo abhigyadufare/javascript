@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#welcome {
+  margin-top: 20px;
+  padding: 0px 20px;
+}
+
+img {
+  margin-left: 20px;
+  float: right;
+  max-width: 40%;
+  min-width: 20%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  background-color: #de9c51;
+  color: #ffffff;
+}
+
+.item {
+  margin: 10px;
+}
