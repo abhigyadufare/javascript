@@ -55,3 +55,9 @@ console.log(gallonsToLiters + " liters");
 console.log("----");
 console.log(liters + " liters are:");
 console.log(litersToGallons + " gallons");
+
+// Convertion function kilograms to pounds
+const kilograms = 60;
+const getPounds = (kgs) => kgs * 2.20;
+
+console.log(getPounds(kilograms));
